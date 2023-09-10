@@ -2,7 +2,7 @@
 # If string n is out of range or s is empty it will print s 
 
 s = "HelloWorld"
-n = 0
+n = 9
 
 if (len(s) == 0) or (n >= len(s)):
     print(s)
