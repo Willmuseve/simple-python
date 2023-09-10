@@ -1,2 +1,1 @@
-
-print(len(length))
+print(set_string)
