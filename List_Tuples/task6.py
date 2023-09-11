@@ -20,5 +20,4 @@ print(MyList)
 
 print("\n")
 
-# Method 2
-print("Method 2:")
+
