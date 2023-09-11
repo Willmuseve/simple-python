@@ -81,6 +81,7 @@ r_ch = []
 for s in strng:
     if (strng.count(s) > 1) and (s not in r_ch):
         r_ch.append(s)
+print(len(r_ch))
 print(r_ch)
 
 if r_ch:
