@@ -17,9 +17,73 @@ for char in s: # using a for loop to loop through every character in the string
         repearted_count += 1
         repearted_char.append(char)
 print(repearted_count)
+print(repearted_char) # print the repeated characters but as elements of a list
 
 if len(repearted_char) > 0:
-    for char in sorted (repearted_char):
+    for char in sorted (repearted_char): # returns  sorted  
         print(char, end=' ')
+else:
+    print("None")
+
+
+print("\n")
+
+
+# E2
+print("Example 2")
+st = "goodieevening"
+
+r_count = 0
+r_char = []
+
+for s in st:
+    if (st.count(s) > 1) and (s not in r_char):
+        r_count += 1
+        r_char.append(s)
+print(r_count)
+print(r_char)
+
+if len(r_char) > 0:
+    for x in sorted (r_char):
+        print(x, end=" ")
+else:
+    print("None")
+
+print("\n")
+#Method 2
+print("Method 2:")
+
+nstr = "bonsoirmademoiselle"
+
+ct = 0
+ch = []
+
+for s in nstr:
+    if (nstr.count(s) > 1) and (nstr not in ch):
+        ct += 1
+        ch.append(s)
+print(ct)
+print(ch)
+
+if ch: #checks the list and returns true if not empty and false if empty
+    print(*sorted(ch), sep=" ") # the asterics delists the items in the list and sorts them alphabetically
+else:
+    print("None")
+
+
+print("\n")
+#Method 3: We remove the variable to count the repeated characters
+print("Method 3:")
+
+strng = "hollaamego"
+r_ch = []
+
+for s in strng:
+    if (strng.count(s) > 1) and (s not in r_ch):
+        r_ch.append(s)
+print(r_ch)
+
+if r_ch:
+    print(*sorted(r_ch), sep = " ")
 else:
     print("None")
