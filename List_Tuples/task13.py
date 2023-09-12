@@ -6,3 +6,5 @@ MyList = [21, 9, 21, 10, 27]
 if len(MyList) > 1:
     MyList_sorted = sorted(MyList)
     print(MyList_sorted[1])
+
+
