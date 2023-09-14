@@ -6,6 +6,6 @@ strings2 = "Konichiwa"
 for char in strings[::-1]:
     print(char, end = ",")
 
-print("\n")
+print("")
 for char in reversed(strings2):
     print(char, end = " ")
