@@ -1,6 +1,6 @@
 # A program that prints a pyramid pattern wit asterics
 
-num_rows = int(input("Enter a number: "))
+num_rows = int(input("Enter a non negative number: "))
 
 k = (num_rows * 2) -2 # variable k that takes the num_rows, miltiplies by 2 then subtracts 2
 
